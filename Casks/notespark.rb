@@ -1,9 +1,9 @@
 cask "notespark" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.2.0"
-  sha256 arm:   "748bd3d8bb3b193c98f629e0a6eb6dde7549e6459c7dbe44f47f816e3008615f",
-         intel: "f9ed51b77c3827096dea43c43b05cb0690ec56e67f3198b59755b2181622cf9a"
+  version "1.3.0"
+  sha256 arm:   "1cd9ea38e7043cbaf4e1b8e9c50b1f1031eb08c1b9b1eb69201c6013869c4e65",
+         intel: "3fe562d2739526ed583cd49e27d1e099ca55bf911a2731eb997f4f6aa920e793"
 
   url "https://github.com/Lusan-sapkota/NoteSpark/releases/download/v#{version}/NoteSpark-macos-#{arch}.dmg"
   name "NoteSpark"
